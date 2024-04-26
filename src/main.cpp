@@ -4,13 +4,11 @@
 #include <setup.h>
 
 int main() {
-
   init();
-
   setup();
   
   while (true) {
-    processSerialCommand();
+    processSerialCommand(); //ledpowerfreq
   }
   return 0;
 }
